@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Übung lev1_4</h1>
+    <div><label for="">name</label> <input type="text" id="hName" placeholder="Transformers"></div>
+    <div><label for="">power </label> <input type="text" id="hPower" placeholder="100%"></div>
+    <div><label for="">enemy</label> <input type="text" id="hEnemy" placeholder="Decepticon"></div>
+    <div>
+        <button
+            onclick="fn_send(document.getElementById('hName').value , document.getElementById('hPower').value, document.getElementById('hEnemy').value)">Send</button>
+    </div>
+    <br>
+
+    <textarea name="" id="output" cols="30" rows="4" disabled></textarea>
+
+    <script src="./assets/js/main.js#"></script>
+</body>
+
+</html>
